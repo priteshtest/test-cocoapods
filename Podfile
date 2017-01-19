@@ -16,7 +16,7 @@ target 'MyTestApp' do
   pod 'LHSKeyboardAdjusting'
   pod 'SwiftLocalization'
   pod 'TWCategory'
-  pod 'libGitHubIssues', '0.0.1'
+  #pod 'libGitHubIssues', '0.0.1'
   pod 'VisualSwift', '> 0.1.2'
   pod 'CCBottomRefreshControl', '0.4'
   pod 'KSReachability', '>= 1.3'
@@ -26,4 +26,6 @@ target 'MyTestApp' do
   pod 'SongtreeSDK',  :git => 'https://github.com/SongtreeSDK/Songtree.git', :commit => 'dc606197a5'
   pod 'Holarchy','0.0.5'
   pod 'CancellationToken','0.2.0'
+  pod 'AFNetworking', '~> 2.0'
+  pod 'Reachability', '3.2'
 end
