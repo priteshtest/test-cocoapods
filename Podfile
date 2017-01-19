@@ -24,5 +24,6 @@ target 'MyTestApp' do
   pod 'TRVSEventSource', '< 0.0.8'
   pod 'DelegateProxy', :git => 'https://github.com/ra1028/DelegateProxy.git'
   pod 'SongtreeSDK',  :git => 'https://github.com/SongtreeSDK/Songtree.git', :commit => 'dc606197a5'
-
+  pod 'Holarchy','0.0.5'
+  pod 'CancellationToken','0.2.0'
 end
